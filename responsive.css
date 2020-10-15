@@ -1,0 +1,118 @@
+/* wide screen pc */
+@media (max-width:2000px) {
+    .sectionTwo {
+        height: 650px;
+    }
+
+    .phone-number {
+        width: auto;
+    }
+}
+
+@media (max-width:1300px) {
+    .sectionTwo {
+        height: 1200px;
+    }
+
+    .sectionFive {
+        height: 1400px;
+    }
+
+}
+
+/* Untuk Tablet */
+@media (max-width:1000px) {
+    .landing-page .landing-text {
+        line-height: 65px;
+    }
+
+    .landing-page .landing-p-text {
+        line-height: 35px;
+        width: 80%;
+        overflow-wrap: break-word;
+    }
+
+    input[type="text"] {
+        width: 75%;
+    }
+
+    .sectionTwo {
+        height: 900px;
+    }
+
+    .content-a {
+        width: 300px;
+    }
+
+    .sectionThree {
+        height: 1300px;
+    }
+
+    .section3-kanan {
+        padding-top: 20px;
+    }
+
+    .sectionFive {
+        height: 1800px;
+    }
+}
+
+/* Untuk Smartphone */
+@media (max-width:743px) {
+    .wrapper {
+        margin: 0 25px;
+    }
+
+    .navbar-logo {
+        margin-left: 15px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .landing-page .landing-text {
+        line-height: 55px;
+        font-size: 20px;
+    }
+
+    .landing-page .landing-p-text {
+        line-height: 35px;
+        font-size: 25px;
+    }
+
+    input[type="text"] {
+        width: 60%;
+    }
+
+    .sectionTwo {
+        height: 1300px;
+    }
+
+    .section3-kanan {
+        padding-top: 70px;
+    }
+
+    .section3-kanan img {
+        height: 400px;
+        padding-right: 50px;
+    }
+
+    .sectionFive img {
+        height:200px;
+    }
+    .sectionFive {
+        height: 800px;
+    }
+}
+
+/* Small screen Smartphone */
+@media(max-width:389px) {
+    input[type="text"] {
+        width: 55%;
+    }
+}
